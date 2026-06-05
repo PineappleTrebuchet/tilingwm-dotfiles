@@ -23,6 +23,7 @@ cp ~/.config/vesktop/themes/ config/Vencord/ -r
 cp ~/.config/waybar config/ -r
 cp ~/.config/wlogout config/ -r
 cp ~/.config/wpaperd config/ -r
+cp ~/.config/xdg-desktop-portal-wlr/ config/ -r
 cp ~/.config/yazi config/ -r
 
 cp ~/.zshrc zsh/ -r

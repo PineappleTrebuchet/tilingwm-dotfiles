@@ -102,5 +102,6 @@ alias pcsx2="net.pcsx2.PCSX2"
 alias vim="nvim"
 alias pwdcp="pwd | wl-copy && echo 'current directory copied'"
 alias homelabssh="ssh cocotreb@100.64.237.9"
+alias wttr="curl wttr.in"
 
 if [ -e /home/cocotreb/.nix-profile/etc/profile.d/nix.sh ]; then . /home/cocotreb/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer

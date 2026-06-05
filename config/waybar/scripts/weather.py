@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # Script credit: https://github.com/tdelamater1/dots
+# Tweaked a little bit to eliminate the trailing space
 import json
 
 import requests
@@ -58,7 +59,7 @@ WEATHER_CODES = {
 data = {}
 
 try:
-    weather = requests.get("https://wttr.in/?format=j1", timeout=5).json()
+    weather = requests.get("https://wttr.in?format=j1", timeout=5).json()
 
     data["text"] = (
         WEATHER_CODES[weather["current_condition"][0]["weatherCode"]]

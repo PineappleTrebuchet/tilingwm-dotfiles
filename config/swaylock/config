@@ -3,9 +3,9 @@ timestr=%I:%M %p
 datestr=%a %b %d
 
 font=SpaceMonoNerdFont
-image=~/Pictures/Backgrounds/mluka.png
+image=~/Pictures/Backgrounds/hmiku.png
 #screenshots
-effect-blur=6x3
+#effect-blur=6x3
 #effect-vignette=0.75:0.75
 ignore-empty-password
 

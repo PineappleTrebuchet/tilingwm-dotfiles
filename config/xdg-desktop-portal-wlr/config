@@ -1,0 +1,6 @@
+[screencast]
+max_fps=30
+chooser_type=dmenu
+chooser_cmd=fuzzel --dmenu --prompt "share> "
+exec_before=swaync-client -dnd-on
+exec_after=swaync-client -dnd-off

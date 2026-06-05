@@ -148,12 +148,13 @@
         "deactivated": ""
         }
     },
+
     "custom/weather": {
         "format": "{}",
         "tooltip": true,
         "interval": 600,
         "exec": "$HOME/.config/waybar/scripts/weather.py",
         "return-type": "json",
-        "on-click": "kweather"
+        "on-click": "gnome-weather"
     }
 }

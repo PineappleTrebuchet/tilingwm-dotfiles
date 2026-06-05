@@ -83,6 +83,8 @@ exec swayidle -w \
     bindsym $mod+Ctrl+$up move up 20px
     bindsym $mod+Ctrl+$right move right 20px
 
+    bindsym $mod+c move position center
+
 # Workspaces:
 #
     bindsym $mod+1 workspace number 1
@@ -173,7 +175,7 @@ bindsym $mod+r mode "resize"
 # Colors and Aesthetic:
 #
 client.focused          #0099ff #2d5f86 #ffffff #0099ff #0099ff
-client.focused_inactive #505050 #333333 #ffffff #262626 #262626
+client.focused_inactive #454545 #353535 #ffffff #262626 #262626
 client.unfocused        #262626 #1a1a1a #ffffff #262626 #262626
 client.urgent           #ff0000 #990000 #ffffff #ff0000 #ff0000
 
