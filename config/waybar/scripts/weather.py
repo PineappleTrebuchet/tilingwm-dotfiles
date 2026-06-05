@@ -59,7 +59,7 @@ WEATHER_CODES = {
 data = {}
 
 try:
-    weather = requests.get("https://wttr.in?/format=j1", timeout=5).json()
+    weather = requests.get("https://wttr.in/?format=j1", timeout=5).json()
 
     data["text"] = (
         WEATHER_CODES[weather["current_condition"][0]["weatherCode"]]
