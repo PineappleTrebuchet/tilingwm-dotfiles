@@ -3,7 +3,7 @@ runwin = [
 	{ run = "/usr/bin/wine %s", orphan = true, for = "unix" }
 ]
 runsh = [
-	{ run = "/usr/bin/sh %s", desc = "Run", block = true, for = "unix" }
+	{ run = "/bin/sh %s", desc = "Run", block = true, for = "unix" }
 ]
 
 
