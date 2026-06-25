@@ -22,6 +22,7 @@
       DISABLE_UNTRACKED_FILES_DIRTY = "true";
       HIST_STAMPS = "yyyy-mm-dd";
       QT_QPA_PLATFORMTHEME="qt5ct";
+			GTK_THEME = "Qogir-dark";
     };
 
     shellAliases = {

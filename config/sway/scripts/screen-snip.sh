@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # A script that uses grim and slurp to take a selective screenshot.
 # The result is saved to a file and to the clipboard.
 

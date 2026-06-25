@@ -1,9 +1,5 @@
-[general]
-working_directory = "/home/cocotreb"
-
 [window]
 padding = {x = 8, y = 8}
-title = "cocotreb@tpt14g5:~"
 dynamic_title = true
 opacity = 0.88
 dimensions = { columns = 95, lines = 28 }

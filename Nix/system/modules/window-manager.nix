@@ -8,6 +8,8 @@
 		wlogout
 		swaylock-effects
 		wl-clipboard
+		autotiling
+		sway-audio-idle-inhibit
 	];
 
 	# programs.swaylock.enable = false;

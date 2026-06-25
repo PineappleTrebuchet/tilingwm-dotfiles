@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # This script is intended to ensure that the backlight doesn't turn off when
 # the brightness is all the way down.
 

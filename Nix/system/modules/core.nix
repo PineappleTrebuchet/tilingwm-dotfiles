@@ -11,5 +11,10 @@
 		gnumake
 		unzip
 		wget
+		feh
 	];
+
+	services.gvfs.enable = true;
+	services.tumbler.enable = true;
+	services.xserver.displayManager.lightdm.enable = true;
 }

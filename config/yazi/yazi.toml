@@ -1,6 +1,6 @@
 [opener]
 runwin = [
-	{ run = "wine %s", orphan = true, for = "unix" }
+	{ run = "/usr/bin/wine %s", orphan = true, for = "unix" }
 ]
 runsh = [
 	{ run = "/bin/sh %s", desc = "Run", block = true, for = "unix" }

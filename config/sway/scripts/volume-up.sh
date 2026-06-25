@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/sh
 # This script ensures that the volume doesn't go over 100%
 
 vol=$(pactl get-sink-volume @DEFAULT_SINK@ | head -n1 | awk -F'/' '{print $2}' | tr -d ' %')  # [web:10]

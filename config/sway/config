@@ -214,7 +214,7 @@ for_window [title="Rename "] floating enable
 for_window [title="nwg-look"] floating enable
 for_window [title="Qalculate!"] floating enable
 for_window [title="zoom"] floating enable
-for_window [title="Waterfox - Choose a profile"] floating enable
+for_window [title="Choose a profile"] floating enable
 for_window [title="Library"] floating enable
 
 

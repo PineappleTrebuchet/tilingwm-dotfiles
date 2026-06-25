@@ -69,12 +69,10 @@
             "warn": 20,
             "critical": 10
         },
-        /*"events": {
-            "on-discharging-warn": "notify-send -u normal 'Warning: Low Battery'
-                && powerprofilesctl set power-saver",
-            "on-discharging-critical": "notify-send -u critical 'WARNING: Critical Battery!'
-                && powerprofilesctl set power-saver",
-        },*/
+        "events": {
+            "on-discharging-warn": "notify-send -u normal 'Warning: Low Battery'&& powerprofilesctl set power-saver",
+            "on-discharging-critical": "notify-send -u critical 'WARNING: Critical Battery!'&& powerprofilesctl set power-saver",
+        },
         "format": "{icon} {capacity}%",
         "format-normal": "{icon} {capacity}%",
         // "format-full": "󱟢 {capacity}%",

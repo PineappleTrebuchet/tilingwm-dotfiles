@@ -15,5 +15,7 @@
     obs-studio
 		kdePackages.kdeconnect-kde
 		thunar
+		gnome-weather
+		blueman
 	];
 }

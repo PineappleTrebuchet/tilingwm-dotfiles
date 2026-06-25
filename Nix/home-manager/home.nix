@@ -20,19 +20,22 @@
 			size = 24;
 		};
 
-		# TODO: add gtk theme here
-		# qogir-theme
-		# qogir-icon-theme
 	};
 		gtk = {
 			enable = true;
 			theme = {
-				name = "Qogir-dark";
+				name = "Qogir-Dark";
 				package = pkgs.qogir-theme;
 			};
 			iconTheme = {
-				name = "Qogir-dark";
+				name = "Qogir-Dark";
 				package = pkgs.qogir-icon-theme;
 			};
+		};
+
+		# User directories
+		xdg.userDirs = {
+			enable = true;
+			createDirectories = true;
 		};
 }
