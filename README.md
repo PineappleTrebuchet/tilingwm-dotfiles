@@ -1,5 +1,5 @@
 # Tiling WM Dotfiles
-My former daily driver's dotfiles which I kept for a few months before switching to KDE Plasma. Very simplistic ones that roughly (and I really mean _roughly_) mimick the Windows 10 UI. Very functional while meeting a minimum aesthetic threshold, for me at least. Main WM is Sway but has Niri support. Bear in mind the Niri config has sway-like keybinds.
+Very simplistic dotfiles for NixOS that roughly (and I really mean _roughly_) mimick the Windows 10 UI. Very functional while meeting a minimum aesthetic threshold, for me at least. Main WM is Sway but has Niri support. Bear in mind the Niri config has sway-like keybinds.
 
 If you want to use these, remember to edit the wallpaper paths in wpaperd, swaylock, and the `swaybg -i` line in the main config.
 
