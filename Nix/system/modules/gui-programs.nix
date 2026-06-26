@@ -17,5 +17,6 @@
 		thunar
 		gnome-weather
 		blueman
+		networkmanagerapplet
 	];
 }

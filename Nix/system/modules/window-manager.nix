@@ -15,8 +15,6 @@
 		libnotify
 	];
 
-	# programs.swaylock.enable = false;
-
 	programs.sway = {
 		enable = true;
 		wrapperFeatures.gtk = true;

@@ -19,7 +19,6 @@
 			x11.enable = true;
 			size = 24;
 		};
-
 	};
 		gtk = {
 			enable = true;
@@ -37,5 +36,5 @@
 		xdg.userDirs = {
 			enable = true;
 			createDirectories = true;
-		};
+		};		
 }

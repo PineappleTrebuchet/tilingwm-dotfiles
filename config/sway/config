@@ -200,7 +200,7 @@ seat seat0 xcursor_theme phinger-cursors-dark 24
 exec autotiling
 exec sway-audio-idle-inhibit
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start
-exec --no-startup-id /usr/lib/xdg-desktop-portal -r
+# exec --no-startup-id /usr/lib/xdg-desktop-portal -r
 font pango:"Inter Regular" 10
 output * scale 1
 # Force my laptop's built-in monitor be the default
