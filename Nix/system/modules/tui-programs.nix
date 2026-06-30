@@ -14,5 +14,6 @@
 		yt-dlp
 		wine
 		arduino-cli
+		pipes
 	];
 }

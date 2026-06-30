@@ -4,7 +4,7 @@
 		./modules/bundle.nix
 	];
 
-	# Plugin dependencies
+	# plugin dependencies
 	home.packages = with pkgs; [
 		fd
 		cargo
@@ -29,6 +29,8 @@
 			wrap = false;
 			cursorline = true;
 			expandtab = false;
+			signcolumn = "yes";
+			statuscolumn = "%s%{v:relnum?v:relnum:v:lnum}%= ";
 		};
 
     extraConfigVim = ''

@@ -21,6 +21,11 @@
 
 	# Someone tell me why the f#ck this isn't on by default
 	services.envfs.enable = true;
+	programs.nix-ld.enable = true;
+	programs.nix-ld.libraries = with pkgs; [
+		# Add any missing dynamic libraries for unpackaged
+		# programs here, NOT in environment.systemPackages
+	];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
