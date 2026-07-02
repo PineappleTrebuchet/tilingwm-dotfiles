@@ -1,4 +1,4 @@
-{ ... }:
+{ config, ... }:
 {
 	imports = [
 		./modules/bundle.nix
@@ -53,10 +53,20 @@
 		diagnostic = {
 			settings = {
 				virtual_text = true;
-				signs = true;
+				signs = {
+					text = config.lib.nixvim.mkRaw ''
+						{
+							[vim.diagnostic.severity.ERROR] = "",
+							[vim.diagnostic.severity.WARN] = "",
+							[vim.diagnostic.severity.HINT] = "",
+							[vim.diagnostic.severity.INFO] = "",
+						}
+					'';
+				};
 				update_in_insert = true;
 			};
 		};
+
   };
 		# generate undo folder in .cache/nvim/ to
 		# improve producibility

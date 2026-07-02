@@ -28,6 +28,7 @@
 			todo-comments.enable = true;
 			colorizer.enable = true;
 			render-markdown.enable = true;
+			nvim-autopairs.enable = true;
     	bufferline = {
 				enable = true;
 				settings.options.separator_style = "slant";
